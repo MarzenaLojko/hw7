@@ -225,7 +225,7 @@ h3 {
   position: relative;
 }
 
-.button2:hover {
+.button-portfolio:hover {
   color: white;
   background-color: #2196f3;
   cursor: pointer;
@@ -256,7 +256,7 @@ footer {
   color: black;
 }
 
-.secondColorDown {
+.second-Color-footer-logo {
   color: white;
 }
 
@@ -426,7 +426,7 @@ header {
   text-align: center;
   border-radius: 4px;
 }
-.button2:hover {
+.button-portfolio:hover {
   color: white;
   background-color: #2196f3;
   width: 114px;
@@ -579,7 +579,7 @@ header {
   display: flex;
 }
 
-.footer-div2 {
+.footer-div-deeper {
   margin-right: 70px;
 }
 
