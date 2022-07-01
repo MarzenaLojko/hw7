@@ -171,7 +171,7 @@ h3 {
   min-width: 370px;
   display: block; 
 }
-.fig-pos-rel{
+.portfolio___figure{
   position: relative;
 }
 .wedo__banner {
@@ -372,7 +372,7 @@ header {
   margin: 0 auto;
 }
 
-.portfolio-button-ul {
+.portfolio__list-button {
   display: flex;
   justify-content: center;
   list-style-type: none;
@@ -382,7 +382,7 @@ header {
   padding-bottom: 50px;
   justify-content: center;
 }
-.portfolio-description-popup {
+.portfolio__popup-description {
   position: absolute; 
   top: 0;
   left: 0;
@@ -396,15 +396,15 @@ header {
   transform: translatey(100%);
   opacity: 0;
 }
-.portfolio-li:hover .portfolio-description-popup,
-.pportfolio-li:active .portfolio-description-popup,
-.portfolio-li:focus .portfolio-description-popup {
+.portfolio-item:hover .portfolio__popup-description,
+.pportfolio-li:active .portfolio__popup-description,
+.portfolio-item:focus .portfolio__popup-description {
   transform: translatey(0);
   opacity: 100;
 }
 
 
-.portfolio-button-li {
+.portfolio__item-button {
   margin: 0;
   width: 114px;
   height: 38px;
@@ -420,7 +420,7 @@ header {
   cursor: pointer;
 }
 
-.portfolioButton {
+.portfolio__button {
   width: 93px;
   height: 38px;
   background: #f5f4fa;
@@ -435,12 +435,12 @@ header {
   border: none;
 }
 
-.portfolio-img {
+.portfolio__image {
   display: block;
   position: relative;
 }
 
-.portfolio-ul {
+.portfolio__list {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
@@ -462,7 +462,7 @@ header {
   color: #757575;
 }
 
-.portfolio-figcaption {
+.portfolio__figcaption {
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
@@ -470,15 +470,26 @@ header {
   
 }
 
-.portfolio-li {
+.portfolio-item {
   max-width: 370px;
   margin-left: 30px;
   margin-bottom: 30px;
   background-color: #fff;
 }
-.portfolio-li:hover,
-.portfolio-li:focus {
+.portfolio-item:hover,
+.portfolio-item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.portfolio__heading {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  padding: 20px 24px 4px 24px;
+}
+.portfolio__paragraph {
+  padding: 0px 24px 20px 24px;
+  line-height: 1.875em;
+  color: #757575;
 }
 
 .clients_heading {
@@ -498,7 +509,7 @@ header {
   margin-bottom: -30px;
 }
 
-.clients-link {
+.clients__link {
   display: flex;
   justify-content: center;
   height: 92px;
@@ -517,39 +528,39 @@ header {
   --clients-list-item-icon-color: currentcolor;
 }
 
-.clients-link .company__svg-01 {
+.clients__link .company__svg-01 {
   width: 41px;
   height: 48px;
 }
 
-.clients-link .company__svg-02 {
+.clients__link .company__svg-02 {
   width: 40px;
   height: 53px;
 }
-.clients-link .company__svg-04 {
+.clients__link .company__svg-04 {
   width: 85px;
   height: 42px;
 }
 
-.clients-link .company__svg-03 {
+.clients__link .company__svg-03 {
   width: 45px;
   height: 42px;
 }
 
-.clients-link .company__svg-06 {
+.clients__link .company__svg-06 {
   width: 94px;
   height: 45px;
 }
-.clients-link .company__svg-05 {
+.clients__link .company__svg-05 {
   width: 63px;
   height: 47px;
 }
 
-.clients-link:hover {
+.clients__link:hover {
   border: 1px solid #2196f3;
   color: #2196f3;
 }
-.clients-link:focus {
+.clients__link:focus {
   border: 1px solid #2196f3;
   color: #2196f3;
 }
@@ -704,7 +715,7 @@ header {
   transition-duration: 250ms;
 }
 
-.modal-icon-close {
+.modal__button-iconClose {
   margin: auto;
   display: flex;
   width: 30px;
@@ -732,7 +743,7 @@ header {
   padding: 40px;
   position: relative;
 }
-.modal-close-btn {
+.modal__button-close {
   position: absolute;
   display: flex;
   top: 8px;
@@ -889,7 +900,7 @@ header {
   line-height: 1.71;
 }
 
-.modal-button {
+.modal__button {
   cursor: pointer;
   align-self: center;
   border-radius: 4px;
@@ -905,7 +916,7 @@ header {
 }
 /*newsletter*/
 
-.footer-newsletter {
+.newsletter__section {
   display: flex;
   flex-grow: 1;
   flex-direction: column;
@@ -966,7 +977,7 @@ header {
   height: 24px;
   width: 24px;
 }
-.footer-h3-newsletter{
+.newsletter__heading{
   font-style: normal;
   font-weight: 700;
   text-transform: uppercase;
